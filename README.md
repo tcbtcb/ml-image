@@ -1,5 +1,3 @@
 # ml-image
 
-a pytorch docker image with a few custom daps for dev
-
-if anyone finds this useful, please let me know. 
+a basic sklearn image with some additional tooling that I use
