@@ -1,7 +1,7 @@
 FROM debian:buster
 
 RUN apt-get update && apt-get install -y openssl libssl-dev build-essential
-RUN apt-get install -y libffi-dev zlib1g-dev
+RUN apt-get install -y libffi-dev zlib1g-dev libbz2-dev
 RUN apt-get install -y entr wget  
 # install python version compatible w/ tf
 RUN wget https://www.python.org/ftp/python/3.8.7/Python-3.8.7.tgz
